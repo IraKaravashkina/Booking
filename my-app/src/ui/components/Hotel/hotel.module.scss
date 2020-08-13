@@ -1,0 +1,19 @@
+@import "../../../_helpers/variables";
+.hotelWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  width: 100%;
+  & > img {
+    margin-right: 20px;
+  }
+}
+.descWrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.title {
+  font-size: 30px;
+}
